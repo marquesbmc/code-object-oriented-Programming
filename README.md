@@ -3,7 +3,28 @@
 ## Material da aula
 
 - [Slides — Aula de POO, UML e Java](slide-aula/Aula-POO-UML-Java.pptx)
-- [Download da versão portátil para Windows x64](https://github.com/marquesbmc/code-object-oriented-Programming/releases/latest)
+- [Baixar o pacote completo com Java para Windows x64](https://github.com/marquesbmc/code-object-oriented-Programming/releases/latest/download/codigo-completo-aula-poo-portatil-windows-x64.zip)
+
+## Passo a passo para o aluno
+
+> [!IMPORTANT]
+> Para executar sem instalar Java, **não use o botão Code > Download ZIP**.
+> Esse download contém somente os arquivos armazenados no repositório e não
+> inclui a pasta `java`. Use o pacote completo da **GitHub Release** indicado
+> abaixo.
+
+1. Baixe o arquivo
+   [**codigo-completo-aula-poo-portatil-windows-x64.zip**](https://github.com/marquesbmc/code-object-oriented-Programming/releases/latest/download/codigo-completo-aula-poo-portatil-windows-x64.zip).
+2. Extraia **todo o conteúdo** do ZIP para uma pasta. Não execute o programa de
+   dentro da janela do arquivo compactado.
+3. Abra a pasta extraída e confirme que `executar.bat` e a pasta `java` estão
+   juntos no mesmo nível.
+4. Dê dois cliques em `executar.bat`.
+5. Escolha no menu qual exemplo deseja compilar e executar.
+
+Depois da extração, o programa está pronto para uso. O `executar.bat` localiza
+automaticamente o Java incluído na pasta `java`; não é necessário instalar Java
+nem configurar `JAVA_HOME` ou `PATH`.
 
 ## Compatibilidade da versão portátil
 
@@ -35,8 +56,8 @@ ou macOS. Para esses sistemas, seria necessário incluir o JDK correspondente.
 
 ## Forma mais simples de executar
 
-Destas instruções em diante, considera-se que foi baixado e extraído o ZIP
-portátil da seção **Releases**, incluindo a pasta `java`.
+Destas instruções em diante, considera-se que o aluno seguiu o passo a passo
+acima e extraiu o pacote portátil completo, incluindo a pasta `java`.
 
 Dê dois cliques em `executar.bat` e escolha no menu qual exemplo deseja
 compilar e executar.
@@ -114,7 +135,10 @@ A distribuição recomendada é:
 
 O botão **Code > Download ZIP** baixa o conteúdo normal do repositório, não o
 arquivo portátil anexado à Release. Para receber o Java incluído, o usuário
-deve baixar especificamente o arquivo disponibilizado em **Releases**.
+deve baixar especificamente o
+[pacote portátil completo](https://github.com/marquesbmc/code-object-oriented-Programming/releases/latest/download/codigo-completo-aula-poo-portatil-windows-x64.zip).
+Se baixar pelo botão **Code**, o `executar.bat` não encontrará a pasta `java` e
+não oferecerá a execução portátil sem uma instalação externa do JDK.
 
 Git LFS também pode armazenar os arquivos grandes, mas adiciona configuração,
 cotas e uma dependência extra para quem clona o repositório. Para esta aula, a
