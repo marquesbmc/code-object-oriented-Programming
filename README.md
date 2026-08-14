@@ -1,15 +1,21 @@
 # Código completo — aula de POO, UML e Java
 
+## Material da aula
+
+- [Slides — Aula de POO, UML e Java](slide-aula/Aula-POO-UML-Java.pptx)
+- [Download da versão portátil para Windows x64](https://github.com/marquesbmc/code-object-oriented-Programming/releases/latest)
+
 ## Compatibilidade da versão portátil
 
-A versão portátil publicada na seção **Releases** inclui o **Eclipse Temurin
+A versão portátil publicada na seção [**Releases**](https://github.com/marquesbmc/code-object-oriented-Programming/releases) inclui o **Eclipse Temurin
 JDK 17** na pasta `java`. Os programas usam diretamente esse Java, sem procurar
 outra instalação no computador.
 
 Por causa do tamanho do JDK, a pasta `java` está no `.gitignore` e não acompanha
 um clone comum do repositório nem o botão **Code > Download ZIP**. Quem não
-possui Java instalado deve baixar o ZIP portátil disponibilizado em
-**Releases**.
+possui Java instalado deve baixar o arquivo
+`codigo-completo-aula-poo-portatil-windows-x64.zip` disponibilizado em
+[**Releases**](https://github.com/marquesbmc/code-object-oriented-Programming/releases).
 
 Para usar esta cópia portátil, o computador precisa ter:
 
@@ -102,7 +108,7 @@ A distribuição recomendada é:
 
 1. Manter no repositório os códigos-fonte, o `README.md` e o `executar.bat`.
 2. Criar um ZIP do projeto completo, incluindo a pasta `java`.
-3. Publicar esse ZIP como arquivo de uma **GitHub Release**.
+3. Publicar esse ZIP como arquivo de uma [**GitHub Release**](https://github.com/marquesbmc/code-object-oriented-Programming/releases).
 4. Orientar o usuário a baixar o ZIP pela seção **Releases**, extrair todo o
    conteúdo e abrir `executar.bat`.
 
